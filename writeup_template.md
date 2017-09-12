@@ -114,4 +114,24 @@ After the collection process, I had 39884 number of data points. I then preproce
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set.
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 10 as evidenced as below.
+
+31907/31907 [==============================] - 74s - loss: 0.0313 - val_loss: 0.0226
+Epoch 2/10
+31907/31907 [==============================] - 73s - loss: 0.0290 - val_loss: 0.0236
+Epoch 3/10
+31907/31907 [==============================] - 73s - loss: 0.0284 - val_loss: 0.0233
+Epoch 4/10
+31907/31907 [==============================] - 73s - loss: 0.0278 - val_loss: 0.0256
+Epoch 5/10
+31907/31907 [==============================] - 73s - loss: 0.0271 - val_loss: 0.0237
+Epoch 6/10
+31907/31907 [==============================] - 73s - loss: 0.0264 - val_loss: 0.0246
+Epoch 7/10
+31907/31907 [==============================] - 73s - loss: 0.0254 - val_loss: 0.0241
+Epoch 8/10
+31907/31907 [==============================] - 73s - loss: 0.0244 - val_loss: 0.0272
+Epoch 9/10
+31907/31907 [==============================] - 73s - loss: 0.0233 - val_loss: 0.0276
+Epoch 10/10
+31907/31907 [==============================] - 73s - loss: 0.0219 - val_loss: 0.0267
